@@ -4,6 +4,7 @@ import Component from './components/Component'
 import Message from './Message/Message'
 import Count from './Count/Count'
 import Welcome from './welcome/Welcome'
+import EventBind from './EventBind/EventBind'
 
 function App() {
   const names = 'siddiq';
@@ -24,7 +25,7 @@ function App() {
       <Welcome name = {names} arr = {size} dobj={obj} yourfunction = {myfunction} />
       <Message />
       <Count />
-
+      <EventBind />
       
     </div>
   );
